@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "a8boVPozPkQnZzgt51Pqx3AtF1JstkIcmZ74j9LpWacGVq5m+0/4yEK6SYeU7iaoO1/W/AVX7jRWO0fu/aul4A==",
+  "dgSpecHash": "zcEp38s3ckHhr+bIeKJd6aViTx8UIjI1Bzc+Wbny/3wF8HDmgkrCWrYXyf25cakmb5bLARX5Me7j0KOIbZo43w==",
   "success": true,
   "projectFilePath": "/home/nelson/Desktop/C#/BuildingAPI/LoggerService/LoggerService.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/nelson/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/nelson/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/home/nelson/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/nelson/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "/home/nelson/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/home/nelson/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/home/nelson/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/nelson/.nuget/packages/nlog/5.3.2/nlog.5.3.2.nupkg.sha512",
+    "/home/nelson/.nuget/packages/nlog.extensions.logging/5.3.11/nlog.extensions.logging.5.3.11.nupkg.sha512"
+  ],
   "logs": []
 }
