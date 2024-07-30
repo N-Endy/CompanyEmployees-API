@@ -4,7 +4,7 @@ using NLog;
 
 var builder = WebApplication.CreateBuilder(args);
 
-LogManager.Setup().LoadConfigurationFromFile(string.Concat(Directory.GetCurrentDirectory(), "/nlpg/config"));
+LogManager.Setup().LoadConfigurationFromFile(string.Concat(Directory.GetCurrentDirectory(), "/nlog/config"));
 
 // Add services to the container.
 builder.Services.ConfigureCors();
