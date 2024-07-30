@@ -90,3 +90,24 @@
 2024-07-30 11:02:14.7897 Debug FileTarget(Name=logfile): Preparing for new file: '/home/nelson/Desktop/C#/BuildingAPI/CompanyEmployees/bin/Debug/net8.0/.\logs\2024-07-30_logfile.txt'
 2024-07-30 11:02:14.7957 Debug FileTarget(Name=logfile): Creating file appender: '/home/nelson/Desktop/C#/BuildingAPI/CompanyEmployees/bin/Debug/net8.0/.\logs\2024-07-30_logfile.txt'
 2024-07-30 11:02:14.7977 Trace FileTarget(Name=logfile): Opening /home/nelson/Desktop/C#/BuildingAPI/CompanyEmployees/bin/Debug/net8.0/.\logs\2024-07-30_logfile.txt with allowFileSharedWriting=False
+2024-07-30 12:20:14.5077 Info AppDomain Shutting down. LogFactory closing...
+2024-07-30 12:20:14.5093 Debug Stop watching file-filter 'nlog.config' in directory: /home/nelson/Desktop/C#/BuildingAPI/CompanyEmployees/bin/Debug/net8.0
+2024-07-30 12:20:14.5102 Debug Closing logging configuration...
+2024-07-30 12:20:14.5102 Trace Closing FileTarget(Name=logfile)
+2024-07-30 12:20:14.5102 Debug FileTarget(Name=logfile): Closing...
+2024-07-30 12:20:14.5129 Trace FileTarget(Name=logfile): FinalizeFile '/home/nelson/Desktop/C#/BuildingAPI/CompanyEmployees/bin/Debug/net8.0/.\logs\2024-07-30_logfile.txt, isArchiving: False'
+2024-07-30 12:20:14.5142 Debug FileTarget(Name=logfile): FileAppender Invalidate Closing File: '/home/nelson/Desktop/C#/BuildingAPI/CompanyEmployees/bin/Debug/net8.0/.\logs\2024-07-30_logfile.txt'
+2024-07-30 12:20:14.5142 Trace FileTarget: Closing '/home/nelson/Desktop/C#/BuildingAPI/CompanyEmployees/bin/Debug/net8.0/.\logs\2024-07-30_logfile.txt'
+2024-07-30 12:20:14.5160 Debug FileTarget(Name=logfile): Closed.
+2024-07-30 12:20:14.5162 Trace Closing .\logs\${shortdate}_logfile.txt
+2024-07-30 12:20:14.5162 Trace Closing Layout Renderer: ${literal}
+2024-07-30 12:20:14.5162 Trace Closing Layout Renderer: ${shortdate}
+2024-07-30 12:20:14.5162 Trace Closing Layout Renderer: ${literal}
+2024-07-30 12:20:14.5173 Trace Closing ${longdate} ${level:uppercase=true} ${message}
+2024-07-30 12:20:14.5173 Trace Closing Layout Renderer: ${longdate}
+2024-07-30 12:20:14.5173 Trace Closing Layout Renderer: ${literal}
+2024-07-30 12:20:14.5173 Trace Closing Layout Renderer: ${level}
+2024-07-30 12:20:14.5173 Trace Closing Layout Renderer: ${literal}
+2024-07-30 12:20:14.5173 Trace Closing Layout Renderer: ${message}
+2024-07-30 12:20:14.5173 Debug Finished closing logging configuration.
+2024-07-30 12:20:14.5173 Info LogFactory has been closed.
