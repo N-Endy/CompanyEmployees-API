@@ -278,6 +278,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "/home/nelson/Desktop/C#/BuildingAPI/Contracts/Contracts.csproj": {
+                "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/Contracts/Contracts.csproj"
+              },
               "/home/nelson/Desktop/C#/BuildingAPI/Entities/Entities.csproj": {
                 "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/Entities/Entities.csproj"
               }
