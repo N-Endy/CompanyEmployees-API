@@ -1,8 +1,6 @@
 /home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/bin/Debug/net8.0/Service.Contracts.deps.json
 /home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/bin/Debug/net8.0/Service.Contracts.dll
 /home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/bin/Debug/net8.0/Service.Contracts.pdb
-/home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/bin/Debug/net8.0/Entities.dll
-/home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/bin/Debug/net8.0/Entities.pdb
 /home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/obj/Debug/net8.0/Service.Contracts.csproj.AssemblyReference.cache
 /home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/obj/Debug/net8.0/Service.Contracts.GeneratedMSBuildEditorConfig.editorconfig
 /home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/obj/Debug/net8.0/Service.Contracts.AssemblyInfoInputs.cache
@@ -14,3 +12,5 @@
 /home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/obj/Debug/net8.0/refint/Service.Contracts.dll
 /home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/obj/Debug/net8.0/Service.Contracts.pdb
 /home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/obj/Debug/net8.0/ref/Service.Contracts.dll
+/home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/bin/Debug/net8.0/Shared.dll
+/home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/bin/Debug/net8.0/Shared.pdb

@@ -18,3 +18,5 @@
 /home/nelson/Desktop/C#/BuildingAPI/Service/obj/Debug/net8.0/refint/Service.dll
 /home/nelson/Desktop/C#/BuildingAPI/Service/obj/Debug/net8.0/Service.pdb
 /home/nelson/Desktop/C#/BuildingAPI/Service/obj/Debug/net8.0/ref/Service.dll
+/home/nelson/Desktop/C#/BuildingAPI/Service/bin/Debug/net8.0/Shared.dll
+/home/nelson/Desktop/C#/BuildingAPI/Service/bin/Debug/net8.0/Shared.pdb

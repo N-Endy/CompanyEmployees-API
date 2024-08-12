@@ -4,14 +4,14 @@
     "/home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/Service.Contracts.csproj": {}
   },
   "projects": {
-    "/home/nelson/Desktop/C#/BuildingAPI/Entities/Entities.csproj": {
+    "/home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/Service.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nelson/Desktop/C#/BuildingAPI/Entities/Entities.csproj",
-        "projectName": "Entities",
-        "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/Entities/Entities.csproj",
+        "projectUniqueName": "/home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/Service.Contracts.csproj",
+        "projectName": "Service.Contracts",
+        "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/Service.Contracts.csproj",
         "packagesPath": "/home/nelson/.nuget/packages/",
-        "outputPath": "/home/nelson/Desktop/C#/BuildingAPI/Entities/obj/",
+        "outputPath": "/home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/nelson/.nuget/NuGet/NuGet.Config"
@@ -25,7 +25,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/nelson/Desktop/C#/BuildingAPI/Shared/Shared.csproj": {
+                "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/Shared/Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -57,14 +61,14 @@
         }
       }
     },
-    "/home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/Service.Contracts.csproj": {
+    "/home/nelson/Desktop/C#/BuildingAPI/Shared/Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/Service.Contracts.csproj",
-        "projectName": "Service.Contracts",
-        "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/Service.Contracts.csproj",
+        "projectUniqueName": "/home/nelson/Desktop/C#/BuildingAPI/Shared/Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/Shared/Shared.csproj",
         "packagesPath": "/home/nelson/.nuget/packages/",
-        "outputPath": "/home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/obj/",
+        "outputPath": "/home/nelson/Desktop/C#/BuildingAPI/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/nelson/.nuget/NuGet/NuGet.Config"
@@ -78,11 +82,7 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {
-              "/home/nelson/Desktop/C#/BuildingAPI/Entities/Entities.csproj": {
-                "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/Entities/Entities.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
