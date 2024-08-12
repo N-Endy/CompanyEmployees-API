@@ -1,0 +1,114 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
+      },
+      "Service.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Service.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Service.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
+    },
+    "Service.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Service.Contracts/Service.Contracts.csproj",
+      "msbuildProject": "../Service.Contracts/Service.Contracts.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Entities >= 1.0.0",
+      "Service.Contracts >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/nelson/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/nelson/Desktop/C#/BuildingAPI/CompanyEmployees.Presentation/CompanyEmployees.Presentation.csproj",
+      "projectName": "CompanyEmployees.Presentation",
+      "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/CompanyEmployees.Presentation/CompanyEmployees.Presentation.csproj",
+      "packagesPath": "/home/nelson/.nuget/packages/",
+      "outputPath": "/home/nelson/Desktop/C#/BuildingAPI/CompanyEmployees.Presentation/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/nelson/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/home/nelson/Desktop/C#/BuildingAPI/Entities/Entities.csproj": {
+              "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/Entities/Entities.csproj"
+            },
+            "/home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/Service.Contracts.csproj": {
+              "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/Service.Contracts.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.107/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

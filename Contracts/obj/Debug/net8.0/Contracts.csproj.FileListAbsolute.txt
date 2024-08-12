@@ -10,3 +10,7 @@
 /home/nelson/Desktop/C#/BuildingAPI/Contracts/obj/Debug/net8.0/refint/Contracts.dll
 /home/nelson/Desktop/C#/BuildingAPI/Contracts/obj/Debug/net8.0/Contracts.pdb
 /home/nelson/Desktop/C#/BuildingAPI/Contracts/obj/Debug/net8.0/ref/Contracts.dll
+/home/nelson/Desktop/C#/BuildingAPI/Contracts/bin/Debug/net8.0/Entities.dll
+/home/nelson/Desktop/C#/BuildingAPI/Contracts/bin/Debug/net8.0/Entities.pdb
+/home/nelson/Desktop/C#/BuildingAPI/Contracts/obj/Debug/net8.0/Contracts.csproj.AssemblyReference.cache
+/home/nelson/Desktop/C#/BuildingAPI/Contracts/obj/Debug/net8.0/Contracts.csproj.CopyComplete

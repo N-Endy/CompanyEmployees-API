@@ -8,4 +8,7 @@ public class CompanyRepository : RepositoryBase<Company>, ICompanyRepository
     {
         
     }
+
+    public IEnumerable<Company> GetAllCompanies(bool trackChanges) =>
+        [.. FindAll(trackChanges).OrderBy(c => c.Name)];
 }

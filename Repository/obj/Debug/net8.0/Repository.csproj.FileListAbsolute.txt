@@ -14,3 +14,5 @@
 /home/nelson/Desktop/C#/BuildingAPI/Repository/obj/Debug/net8.0/refint/Repository.dll
 /home/nelson/Desktop/C#/BuildingAPI/Repository/obj/Debug/net8.0/Repository.pdb
 /home/nelson/Desktop/C#/BuildingAPI/Repository/obj/Debug/net8.0/ref/Repository.dll
+/home/nelson/Desktop/C#/BuildingAPI/Repository/bin/Debug/net8.0/Contracts.dll
+/home/nelson/Desktop/C#/BuildingAPI/Repository/bin/Debug/net8.0/Contracts.pdb
