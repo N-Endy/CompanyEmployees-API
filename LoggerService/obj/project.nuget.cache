@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gx4SIBvz4FVdRa3zr863Q4Zx6GQcwO69jVn4YCHVokQzLoeDiUsSJGcnLMIV8q+Xun2nR0CdDWhQgz29kU0+Ww==",
+  "dgSpecHash": "uZ3loH+azauE2NdttvzR3YFLGi0tfP7s2/iostdO+9n4mOhiahwtCz5aCAL4PNVwXTRo6iKgsLE/cBi4YxEznQ==",
   "success": true,
   "projectFilePath": "/home/nelson/Desktop/C#/BuildingAPI/LoggerService/LoggerService.csproj",
   "expectedPackageFiles": [

@@ -156,3 +156,5 @@
 /home/nelson/Desktop/C#/BuildingAPI/CompanyEmployees/bin/Debug/net8.0/Service.Contracts.pdb
 /home/nelson/Desktop/C#/BuildingAPI/CompanyEmployees/bin/Debug/net8.0/Shared.dll
 /home/nelson/Desktop/C#/BuildingAPI/CompanyEmployees/bin/Debug/net8.0/Shared.pdb
+/home/nelson/Desktop/C#/BuildingAPI/CompanyEmployees/bin/Debug/net8.0/AutoMapper.dll
+/home/nelson/Desktop/C#/BuildingAPI/CompanyEmployees/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
