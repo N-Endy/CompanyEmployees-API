@@ -8,7 +8,7 @@ public class MappingProfile : Profile
     public MappingProfile()
     {
         CreateMap<Company, CompanyDto>()
-            .ForCtorParam("FullAddress",
+            .ForMember(c => c.FullAddress,
             opt => opt.MapFrom(c => $"{c.Address}, {c.Country}"));
 
         CreateMap<Employee, EmployeeDto>();

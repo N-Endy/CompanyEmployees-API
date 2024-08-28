@@ -19,6 +19,17 @@ public class EmployeeService : IEmployeeService
         _mapper = mapper;
     }
 
+    public EmployeeDto GetEmployee(Guid companyId, Guid id, bool trackChanges)
+    {
+        var company = _repository.Company.GetCompany(companyId, trackChanges) ?? throw new CompanyNotFoundException(companyId);
+        
+        var employeeFromDb = _repository.Employee.GetEmployee(companyId, id, trackChanges) ?? throw new EmployeeNotFoundException(id);
+
+        var employeeDto = _mapper.Map<EmployeeDto>(employeeFromDb);
+
+        return employeeDto;
+    }
+
     public IEnumerable<EmployeeDto> GetEmployees(Guid companyId, bool trackChanges)
     {
         var employees = _repository.Employee.GetEmployees(companyId, trackChanges) ?? throw new CompanyNotFoundException(companyId);

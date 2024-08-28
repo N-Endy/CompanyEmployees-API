@@ -33,3 +33,5 @@
    at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
    at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
 2024-08-28 20:36:42.1756 ERROR Something went wrong: The company wit id: 3d490a70-94ce-4d15-9494-5248280c2ce2 doesn't exist in the database.
+2024-08-28 22:54:04.7920 ERROR Something went wrong: Employee with id: 86dba8c0-d178-41e7-938c-ed49778fb52c doesn't exist in the database.
+2024-08-28 23:02:11.8347 ERROR Something went wrong: Type 'Shared.DataTransferObjects.CompanyDto' cannot be serialized. Consider marking it with the DataContractAttribute attribute, and marking all of its members you want serialized with the DataMemberAttribute attribute. Alternatively, you can ensure that the type is public and has a parameterless constructor - all public members of the type will then be serialized, and no attributes will be required.
