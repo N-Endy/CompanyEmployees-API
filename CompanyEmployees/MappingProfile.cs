@@ -12,5 +12,7 @@ public class MappingProfile : Profile
             opt => opt.MapFrom(c => $"{c.Address}, {c.Country}"));
 
         CreateMap<Employee, EmployeeDto>();
+
+        CreateMap<CompanyForCreationDto, Company>();
     }
 }
