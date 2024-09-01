@@ -1,0 +1,3 @@
+2024-08-30 23:06:20.8296 ERROR Something went wrong: The company wit id: 14759d51-e9c1-4afc-f9bf-08d98898c9c3 doesn't exist in the database.
+2024-08-30 23:25:04.3137 ERROR Something went wrong: No route matches the supplied values.
+2024-08-30 23:25:50.9605 ERROR Something went wrong: No route matches the supplied values.

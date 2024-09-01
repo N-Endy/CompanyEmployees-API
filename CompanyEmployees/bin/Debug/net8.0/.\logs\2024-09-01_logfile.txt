@@ -1,0 +1,10 @@
+2024-09-01 21:30:08.7835 ERROR Something went wrong: The company wit id: 14759d51-e9c1-4afc-f9bf-08d98898c9c3 doesn't exist in the database.
+2024-09-01 21:31:15.8327 ERROR Something went wrong: The company wit id: 14759d51-e9c1-4afc-f9bf-08d98898c9c3 doesn't exist in the database.
+2024-09-01 21:31:41.8781 ERROR Something went wrong: No route matches the supplied values.
+2024-09-01 21:32:43.0893 ERROR Something went wrong: No route matches the supplied values.
+2024-09-01 21:33:49.9556 ERROR Something went wrong: No route matches the supplied values.
+2024-09-01 21:45:36.1147 ERROR Something went wrong: No route matches the supplied values.
+2024-09-01 21:45:59.5353 ERROR Something went wrong: An error occurred while saving the entity changes. See the inner exception for details.
+2024-09-01 21:47:02.6834 ERROR Something went wrong: No route matches the supplied values.
+2024-09-01 21:48:32.9853 ERROR Something went wrong: No route matches the supplied values.
+2024-09-01 21:50:05.3010 ERROR Something went wrong: The company wit id: e3baa9c5-4fab-4de1-e50d-08dccac53af6 doesn't exist in the database.
