@@ -8,3 +8,5 @@
 2024-09-01 21:47:02.6834 ERROR Something went wrong: No route matches the supplied values.
 2024-09-01 21:48:32.9853 ERROR Something went wrong: No route matches the supplied values.
 2024-09-01 21:50:05.3010 ERROR Something went wrong: The company wit id: e3baa9c5-4fab-4de1-e50d-08dccac53af6 doesn't exist in the database.
+2024-09-01 22:22:51.7027 ERROR Something went wrong: An error occurred while saving the entity changes. See the inner exception for details.
+2024-09-01 22:33:05.7872 ERROR Something went wrong: An error occurred while saving the entity changes. See the inner exception for details.

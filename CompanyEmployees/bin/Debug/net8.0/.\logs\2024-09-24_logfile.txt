@@ -1,0 +1,6 @@
+2024-09-24 21:02:12.5515 ERROR Something went wrong: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+2024-09-24 21:02:39.4958 ERROR Something went wrong: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+2024-09-24 21:13:00.2321 ERROR Something went wrong: Invalid object name 'Companies'.
+2024-09-24 22:12:33.5377 ERROR Something went wrong: No route matches the supplied values.
+2024-09-24 22:13:10.7333 ERROR Something went wrong: The company wit id: 00000000-0000-0000-0000-000000000000 doesn't exist in the database.
+2024-09-24 22:14:03.0945 ERROR Something went wrong: No route matches the supplied values.
