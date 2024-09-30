@@ -53,4 +53,14 @@ public class EmployeeService : IEmployeeService
 
         return employeesDto;
     }
+
+    public void DeleteEmployeeForCompany(Guid companyId, Guid id, bool trackChanges)
+    {
+        var company = _repository.Company.GetCompany(companyId, trackChanges)?? throw new CompanyNotFoundException(companyId);
+
+        var employeeToDelete = _repository.Employee.GetEmployee(companyId, id, trackChanges)?? throw new EmployeeNotFoundException(id);
+
+        _repository.Employee.DeleteEmployee(employeeToDelete);
+        _repository.Save();
+    }
 }

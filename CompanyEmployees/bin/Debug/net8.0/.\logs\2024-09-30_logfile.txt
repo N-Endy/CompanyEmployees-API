@@ -1,0 +1,4 @@
+2024-09-30 12:57:46.6761 ERROR Something went wrong: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+2024-09-30 12:58:25.4337 ERROR Something went wrong: A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: TCP Provider, error: 0 - Success)
+2024-09-30 13:04:21.8551 ERROR Something went wrong: Employee with id: a25b8117-c55d-4dc4-1456-08dcdcdd9b52 doesn't exist in the database.
+2024-09-30 13:14:33.8887 ERROR Something went wrong: The company wit id: c29d3434-b436-4787-1892-08dcdcd5a6ae doesn't exist in the database.
