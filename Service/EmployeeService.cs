@@ -63,4 +63,14 @@ public class EmployeeService : IEmployeeService
         _repository.Employee.DeleteEmployee(employeeToDelete);
         _repository.Save();
     }
+
+    public void UpdateEmployeeForCompany(Guid companyId, Guid id, EmployeeForUpdateDto employeeForUpdateDto, bool compTrackChanges, bool empTrackChanges)
+    {
+        _ = _repository.Company.GetCompany(companyId, compTrackChanges)?? throw new CompanyNotFoundException(companyId);
+
+        var employeeFromDb = _repository.Employee.GetEmployee(companyId, id, empTrackChanges)?? throw new EmployeeNotFoundException(id);
+
+        _mapper.Map(employeeForUpdateDto, employeeFromDb);
+        _repository.Save();
+    }
 }
