@@ -73,4 +73,21 @@ public class EmployeeService : IEmployeeService
         _mapper.Map(employeeForUpdateDto, employeeFromDb);
         _repository.Save();
     }
+
+    public (EmployeeForUpdateDto employeeToPatch, Employee employeeEntity) GetEmployeeForPatch(Guid companyId, Guid id, bool compTrackChanges, bool empTrackChanges)
+    {
+        _ = _repository.Company.GetCompany(companyId, compTrackChanges) ?? throw new CompanyNotFoundException(companyId);
+
+        var employeeFromDb = _repository.Employee.GetEmployee(companyId, id, empTrackChanges)?? throw new EmployeeNotFoundException(id);
+
+        var employeeToBePatch = _mapper.Map<EmployeeForUpdateDto>(employeeFromDb);
+
+        return (employeeToBePatch, employeeFromDb);
+    }
+
+    public void SaveChangesForPatch(EmployeeForUpdateDto employeeToPatch, Employee employeeEntity)
+    {
+        _mapper.Map(employeeToPatch, employeeEntity);
+        _repository.Save();
+    }
 }
