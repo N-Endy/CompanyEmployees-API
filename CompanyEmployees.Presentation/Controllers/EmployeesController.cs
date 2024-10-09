@@ -68,12 +68,12 @@ public class EmployeesController : ControllerBase
         if (patchDocument is null)
             return BadRequest("patchDocument object sent from client is null");
 
-        var result = _service.EmployeeService.GetEmployeeForPatch(companyId, id,
-compTrackChanges: false,
-empTrackChanges: true);
-patchDocument.ApplyTo(result.employeeToPatch);
-_service.EmployeeService.SaveChangesForPatch(result.employeeToPatch,
-result.employeeEntity);
-return NoContent();
+        var (employeeToPatch, employeeEntity) = _service.EmployeeService.GetEmployeeForPatch(companyId, id, compTrackChanges: false, empTrackChanges: true);
+
+        patchDocument.ApplyTo(employeeToPatch);
+
+        _service.EmployeeService.SaveChangesForPatch(employeeToPatch, employeeEntity);
+        
+        return NoContent();
     }
 }
