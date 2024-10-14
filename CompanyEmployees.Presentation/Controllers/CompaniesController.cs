@@ -1,3 +1,4 @@
+using CompanyEmployees.Presentation.ActionFilters;
 using CompanyEmployees.Presentation.ModelBinders;
 using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -42,14 +43,9 @@ public class CompaniesController : ControllerBase
     }
 
     [HttpPost]
+    [ServiceFilter(typeof(ValidationFilterAttribute))]
     public async Task<IActionResult> CreateCompany([FromBody] CompanyForCreationDto company)
     {
-        if (company is null)
-            return BadRequest("CompanyForCreationDto is null");
-
-        if (!ModelState.IsValid)
-            return UnprocessableEntity(ModelState);
-
         var createdCompany = await _service.CompanyService.CreateCompanyAsync(company);
 
         return CreatedAtRoute("CompanyById", new { id = createdCompany.Id }, createdCompany);
@@ -75,14 +71,9 @@ public class CompaniesController : ControllerBase
     }
 
     [HttpPut("{id:guid}")]
+    [ServiceFilter(typeof(ValidationFilterAttribute))]
     public async Task<IActionResult> UpdateCompany(Guid id, [FromBody] CompanyForUpdateDto companyForUpdate)
     {
-        if (companyForUpdate is null)
-            return BadRequest("CompanyForUpdate object is null");
-
-        if (!ModelState.IsValid)
-            return UnprocessableEntity(ModelState);
-
         await _service.CompanyService.UpdateCompanyAsync(id, companyForUpdate, trackChanges: true);
 
         return NoContent();

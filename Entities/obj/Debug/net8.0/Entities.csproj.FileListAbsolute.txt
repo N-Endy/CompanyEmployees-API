@@ -10,3 +10,15 @@
 /home/nelson/Desktop/C#/BuildingAPI/Entities/obj/Debug/net8.0/refint/Entities.dll
 /home/nelson/Desktop/C#/BuildingAPI/Entities/obj/Debug/net8.0/Entities.pdb
 /home/nelson/Desktop/C#/BuildingAPI/Entities/obj/Debug/net8.0/ref/Entities.dll
+/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/bin/Debug/net8.0/Entities.deps.json
+/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/bin/Debug/net8.0/Entities.dll
+/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/bin/Debug/net8.0/Entities.pdb
+/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/obj/Debug/net8.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/obj/Debug/net8.0/Entities.AssemblyInfoInputs.cache
+/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/obj/Debug/net8.0/Entities.AssemblyInfo.cs
+/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/obj/Debug/net8.0/Entities.csproj.CoreCompileInputs.cache
+/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/obj/Debug/net8.0/Entities.sourcelink.json
+/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/obj/Debug/net8.0/Entities.dll
+/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/obj/Debug/net8.0/refint/Entities.dll
+/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/obj/Debug/net8.0/Entities.pdb
+/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/obj/Debug/net8.0/ref/Entities.dll

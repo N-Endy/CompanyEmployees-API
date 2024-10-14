@@ -1,5 +1,6 @@
 using CompanyEmployees;
 using CompanyEmployees.Extensions;
+using CompanyEmployees.Presentation.ActionFilters;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters;
@@ -16,20 +17,6 @@ NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter() =>
     .GetRequiredService<IOptions<MvcOptions>>().Value.InputFormatters
     .OfType<NewtonsoftJsonPatchInputFormatter>().First();
 
-// NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter()
-// {
-//     var services = new ServiceCollection()
-//         .AddLogging()
-//         .AddMvc()
-//         .AddNewtonsoftJson();
-
-//     using var serviceProvider = services.Services.BuildServiceProvider();
-//     var mvcOptions = serviceProvider.GetRequiredService<IOptions<MvcOptions>>().Value;
-//     return mvcOptions.InputFormatters
-//         .OfType<NewtonsoftJsonPatchInputFormatter>()
-//         .First();
-// }
-
 // Add services to the container.
 builder.Services.ConfigureCors();
 builder.Services.ConfigureIISIntegration();
@@ -39,6 +26,7 @@ builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+builder.Services.AddScoped<ValidationFilterAttribute>();
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
