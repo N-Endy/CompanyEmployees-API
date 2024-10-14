@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ePxH3p+kL6u+Q1BBbIIDjznYCbk07DN1/0utgBwfBOPmhHRne6m6ZmlmvkkckEut2SJvF5WzBnahDsHorZmUBA==",
+  "dgSpecHash": "TRhvDzzwyn/+Jpcld5eRp214/6VH9HDtrRMCXok0t/hSgAUCCyfySjW0weF8q3zGfTNZVMiSVALEl9sfLeaICQ==",
   "success": true,
-  "projectFilePath": "/home/nelson/Desktop/C#/BuildingAPI/CompanyEmployees/CompanyEmployees.csproj",
+  "projectFilePath": "/home/nelson/Desktop/C#/CompanyEmployees-API/CompanyEmployees/CompanyEmployees.csproj",
   "expectedPackageFiles": [
     "/home/nelson/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/home/nelson/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

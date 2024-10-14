@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "KWO0ChCwSK1cVOmNlXyXXfF6BleGFyqJC8bwTPPYn6C98/Ykfc/X1JnU0TBjpbAT5I2uJjA+vRY3pFRvrTJXfw==",
+  "dgSpecHash": "0xBxm4T2ii1BWGNCN/DQZTQIEel+isqYrj3g6b9eFTsKNRXb/DyURBwohXD/4k18LhsBnPQnHW0DgpfEw98LgA==",
   "success": true,
-  "projectFilePath": "/home/nelson/Desktop/C#/BuildingAPI/CompanyEmployees.Presentation/CompanyEmployees.Presentation.csproj",
+  "projectFilePath": "/home/nelson/Desktop/C#/CompanyEmployees-API/CompanyEmployees.Presentation/CompanyEmployees.Presentation.csproj",
   "expectedPackageFiles": [
     "/home/nelson/.nuget/packages/microsoft.aspnetcore.jsonpatch/8.0.10/microsoft.aspnetcore.jsonpatch.8.0.10.nupkg.sha512",
+    "/home/nelson/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/8.0.10/microsoft.aspnetcore.mvc.newtonsoftjson.8.0.10.nupkg.sha512",
     "/home/nelson/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
-    "/home/nelson/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+    "/home/nelson/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/home/nelson/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512"
   ],
   "logs": []
 }

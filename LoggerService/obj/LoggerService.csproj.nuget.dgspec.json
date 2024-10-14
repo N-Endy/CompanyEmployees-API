@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/nelson/Desktop/C#/BuildingAPI/LoggerService/LoggerService.csproj": {}
+    "/home/nelson/Desktop/C#/CompanyEmployees-API/LoggerService/LoggerService.csproj": {}
   },
   "projects": {
-    "/home/nelson/Desktop/C#/BuildingAPI/Contracts/Contracts.csproj": {
+    "/home/nelson/Desktop/C#/CompanyEmployees-API/Contracts/Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nelson/Desktop/C#/BuildingAPI/Contracts/Contracts.csproj",
+        "projectUniqueName": "/home/nelson/Desktop/C#/CompanyEmployees-API/Contracts/Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/Contracts/Contracts.csproj",
+        "projectPath": "/home/nelson/Desktop/C#/CompanyEmployees-API/Contracts/Contracts.csproj",
         "packagesPath": "/home/nelson/.nuget/packages/",
-        "outputPath": "/home/nelson/Desktop/C#/BuildingAPI/Contracts/obj/",
+        "outputPath": "/home/nelson/Desktop/C#/CompanyEmployees-API/Contracts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/nelson/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/nelson/Desktop/C#/BuildingAPI/Entities/Entities.csproj": {
-                "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/Entities/Entities.csproj"
+              "/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/Entities.csproj": {
+                "projectPath": "/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/Entities.csproj"
               }
             }
           }
@@ -61,14 +61,14 @@
         }
       }
     },
-    "/home/nelson/Desktop/C#/BuildingAPI/Entities/Entities.csproj": {
+    "/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nelson/Desktop/C#/BuildingAPI/Entities/Entities.csproj",
+        "projectUniqueName": "/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/Entities/Entities.csproj",
+        "projectPath": "/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/Entities.csproj",
         "packagesPath": "/home/nelson/.nuget/packages/",
-        "outputPath": "/home/nelson/Desktop/C#/BuildingAPI/Entities/obj/",
+        "outputPath": "/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/nelson/.nuget/NuGet/NuGet.Config"
@@ -114,14 +114,14 @@
         }
       }
     },
-    "/home/nelson/Desktop/C#/BuildingAPI/LoggerService/LoggerService.csproj": {
+    "/home/nelson/Desktop/C#/CompanyEmployees-API/LoggerService/LoggerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nelson/Desktop/C#/BuildingAPI/LoggerService/LoggerService.csproj",
+        "projectUniqueName": "/home/nelson/Desktop/C#/CompanyEmployees-API/LoggerService/LoggerService.csproj",
         "projectName": "LoggerService",
-        "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/LoggerService/LoggerService.csproj",
+        "projectPath": "/home/nelson/Desktop/C#/CompanyEmployees-API/LoggerService/LoggerService.csproj",
         "packagesPath": "/home/nelson/.nuget/packages/",
-        "outputPath": "/home/nelson/Desktop/C#/BuildingAPI/LoggerService/obj/",
+        "outputPath": "/home/nelson/Desktop/C#/CompanyEmployees-API/LoggerService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/nelson/.nuget/NuGet/NuGet.Config"
@@ -136,8 +136,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/nelson/Desktop/C#/BuildingAPI/Contracts/Contracts.csproj": {
-                "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/Contracts/Contracts.csproj"
+              "/home/nelson/Desktop/C#/CompanyEmployees-API/Contracts/Contracts.csproj": {
+                "projectPath": "/home/nelson/Desktop/C#/CompanyEmployees-API/Contracts/Contracts.csproj"
               }
             }
           }

@@ -539,11 +539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nelson/Desktop/C#/BuildingAPI/LoggerService/LoggerService.csproj",
+      "projectUniqueName": "/home/nelson/Desktop/C#/CompanyEmployees-API/LoggerService/LoggerService.csproj",
       "projectName": "LoggerService",
-      "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/LoggerService/LoggerService.csproj",
+      "projectPath": "/home/nelson/Desktop/C#/CompanyEmployees-API/LoggerService/LoggerService.csproj",
       "packagesPath": "/home/nelson/.nuget/packages/",
-      "outputPath": "/home/nelson/Desktop/C#/BuildingAPI/LoggerService/obj/",
+      "outputPath": "/home/nelson/Desktop/C#/CompanyEmployees-API/LoggerService/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/nelson/.nuget/NuGet/NuGet.Config"
@@ -558,8 +558,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/nelson/Desktop/C#/BuildingAPI/Contracts/Contracts.csproj": {
-              "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/Contracts/Contracts.csproj"
+            "/home/nelson/Desktop/C#/CompanyEmployees-API/Contracts/Contracts.csproj": {
+              "projectPath": "/home/nelson/Desktop/C#/CompanyEmployees-API/Contracts/Contracts.csproj"
             }
           }
         }

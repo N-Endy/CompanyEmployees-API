@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZQAg9igqxJczfu7g2z7boywz6NPdNmrcl6vqtkh88Ve3YZVGz9WYvCQasY/Zth3dJprv4jTctlFp446cWbNvZA==",
+  "dgSpecHash": "Xhpmw3Ehm87xMzQ9I23yelnf/h1zQuX92EuvdtHgTl0rOors2Hf6us0rZQ9zsFChjGmQE6IUlwg1nuwsmE4PQg==",
   "success": true,
-  "projectFilePath": "/home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/Service.Contracts.csproj",
+  "projectFilePath": "/home/nelson/Desktop/C#/CompanyEmployees-API/Service.Contracts/Service.Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

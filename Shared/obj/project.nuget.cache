@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wfHPooFLJjPPYFCD9ECK4egLTLsymy8Kpj/D0iVG69wBsLRZQxQYVJridPE5JFKjfTP8Kf+zu7U4t0pw9b/paQ==",
+  "dgSpecHash": "Cuh11Sfl0VJbHKsi06oGfmxgCVwIvGWfhvs2ktGHWVcnMbxn2dEJY1eGZKR9BX3ZwvdGib31+USPtIVKw3ELNw==",
   "success": true,
-  "projectFilePath": "/home/nelson/Desktop/C#/BuildingAPI/Shared/Shared.csproj",
+  "projectFilePath": "/home/nelson/Desktop/C#/CompanyEmployees-API/Shared/Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

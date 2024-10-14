@@ -47,6 +47,9 @@ public class CompaniesController : ControllerBase
         if (company is null)
             return BadRequest("CompanyForCreationDto is null");
 
+        if (!ModelState.IsValid)
+            return UnprocessableEntity(ModelState);
+
         var createdCompany = _service.CompanyService.CreateCompany(company);
 
         return CreatedAtRoute("CompanyById", new { id = createdCompany.Id }, createdCompany);
@@ -55,9 +58,12 @@ public class CompaniesController : ControllerBase
     [HttpPost("collection")]
     public IActionResult CreateCompanyCollection([FromBody] IEnumerable<CompanyForCreationDto> companyCollection)
     {
-        var result = _service.CompanyService.CreateCompanyCollection(companyCollection);
+        if (!ModelState.IsValid)
+            return UnprocessableEntity(ModelState);
 
-        return CreatedAtRoute("CompanyCollection", new { result.ids }, result.companies);
+        var (companies, ids) = _service.CompanyService.CreateCompanyCollection(companyCollection);
+
+        return CreatedAtRoute("CompanyCollection", new { ids }, companies);
     }
 
     [HttpDelete("{id:guid}")]
@@ -73,6 +79,9 @@ public class CompaniesController : ControllerBase
     {
         if (companyForUpdate is null)
             return BadRequest("CompanyForUpdate object is null");
+
+        if (!ModelState.IsValid)
+            return UnprocessableEntity(ModelState);
 
         _service.CompanyService.UpdateCompany(id, companyForUpdate, trackChanges: true);
 

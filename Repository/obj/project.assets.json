@@ -601,11 +601,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nelson/Desktop/C#/BuildingAPI/Repository/Repository.csproj",
+      "projectUniqueName": "/home/nelson/Desktop/C#/CompanyEmployees-API/Repository/Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/Repository/Repository.csproj",
+      "projectPath": "/home/nelson/Desktop/C#/CompanyEmployees-API/Repository/Repository.csproj",
       "packagesPath": "/home/nelson/.nuget/packages/",
-      "outputPath": "/home/nelson/Desktop/C#/BuildingAPI/Repository/obj/",
+      "outputPath": "/home/nelson/Desktop/C#/CompanyEmployees-API/Repository/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/nelson/.nuget/NuGet/NuGet.Config"
@@ -620,11 +620,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/nelson/Desktop/C#/BuildingAPI/Contracts/Contracts.csproj": {
-              "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/Contracts/Contracts.csproj"
+            "/home/nelson/Desktop/C#/CompanyEmployees-API/Contracts/Contracts.csproj": {
+              "projectPath": "/home/nelson/Desktop/C#/CompanyEmployees-API/Contracts/Contracts.csproj"
             },
-            "/home/nelson/Desktop/C#/BuildingAPI/Entities/Entities.csproj": {
-              "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/Entities/Entities.csproj"
+            "/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/Entities.csproj": {
+              "projectPath": "/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/Entities.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dbRK8iZeaXMab/MqGjmpuI0pLOV89hfzTrNreAyHtH3v6e9kuyvr1Ke/vDGmJFLD3b9wCoTCpPZHcgImNeWZfA==",
+  "dgSpecHash": "9IADm4ecPmytLktYeezthHGSs3dsNMWhECdPeD8WYQ/Xat2F3jJg3JMwPPY1O/62VbcYVmY/1vYdcRJ5mJNk5Q==",
   "success": true,
-  "projectFilePath": "/home/nelson/Desktop/C#/BuildingAPI/Entities/Entities.csproj",
+  "projectFilePath": "/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

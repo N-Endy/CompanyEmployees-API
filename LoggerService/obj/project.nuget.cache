@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FgiNub/QoOFKKlpzovvarv15nLScC6XzDIRfmYNtsCqq3tJ3cvyc5KtBwVu9qCgIMp25KQMUR/8Ui9IspKXnkw==",
+  "dgSpecHash": "DXMDwESFFgBX/+/a1bGg+5YEYBU3nCLgm3mvY7kALl+fjWvnsxYoMreJMl4YeXQ7/VAakPZBTxQKiTuGD38KWA==",
   "success": true,
-  "projectFilePath": "/home/nelson/Desktop/C#/BuildingAPI/LoggerService/LoggerService.csproj",
+  "projectFilePath": "/home/nelson/Desktop/C#/CompanyEmployees-API/LoggerService/LoggerService.csproj",
   "expectedPackageFiles": [
     "/home/nelson/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "/home/nelson/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",

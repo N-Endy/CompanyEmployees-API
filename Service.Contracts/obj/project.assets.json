@@ -48,11 +48,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/Service.Contracts.csproj",
+      "projectUniqueName": "/home/nelson/Desktop/C#/CompanyEmployees-API/Service.Contracts/Service.Contracts.csproj",
       "projectName": "Service.Contracts",
-      "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/Service.Contracts.csproj",
+      "projectPath": "/home/nelson/Desktop/C#/CompanyEmployees-API/Service.Contracts/Service.Contracts.csproj",
       "packagesPath": "/home/nelson/.nuget/packages/",
-      "outputPath": "/home/nelson/Desktop/C#/BuildingAPI/Service.Contracts/obj/",
+      "outputPath": "/home/nelson/Desktop/C#/CompanyEmployees-API/Service.Contracts/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/nelson/.nuget/NuGet/NuGet.Config"
@@ -67,11 +67,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/nelson/Desktop/C#/BuildingAPI/Entities/Entities.csproj": {
-              "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/Entities/Entities.csproj"
+            "/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/Entities.csproj": {
+              "projectPath": "/home/nelson/Desktop/C#/CompanyEmployees-API/Entities/Entities.csproj"
             },
-            "/home/nelson/Desktop/C#/BuildingAPI/Shared/Shared.csproj": {
-              "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/Shared/Shared.csproj"
+            "/home/nelson/Desktop/C#/CompanyEmployees-API/Shared/Shared.csproj": {
+              "projectPath": "/home/nelson/Desktop/C#/CompanyEmployees-API/Shared/Shared.csproj"
             }
           }
         }

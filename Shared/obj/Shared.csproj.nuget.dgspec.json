@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/nelson/Desktop/C#/BuildingAPI/Shared/Shared.csproj": {}
+    "/home/nelson/Desktop/C#/CompanyEmployees-API/Shared/Shared.csproj": {}
   },
   "projects": {
-    "/home/nelson/Desktop/C#/BuildingAPI/Shared/Shared.csproj": {
+    "/home/nelson/Desktop/C#/CompanyEmployees-API/Shared/Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nelson/Desktop/C#/BuildingAPI/Shared/Shared.csproj",
+        "projectUniqueName": "/home/nelson/Desktop/C#/CompanyEmployees-API/Shared/Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "/home/nelson/Desktop/C#/BuildingAPI/Shared/Shared.csproj",
+        "projectPath": "/home/nelson/Desktop/C#/CompanyEmployees-API/Shared/Shared.csproj",
         "packagesPath": "/home/nelson/.nuget/packages/",
-        "outputPath": "/home/nelson/Desktop/C#/BuildingAPI/Shared/obj/",
+        "outputPath": "/home/nelson/Desktop/C#/CompanyEmployees-API/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/nelson/.nuget/NuGet/NuGet.Config"
