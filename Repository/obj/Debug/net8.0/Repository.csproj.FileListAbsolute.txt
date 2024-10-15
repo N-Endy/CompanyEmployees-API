@@ -34,3 +34,5 @@
 /home/nelson/Desktop/C#/CompanyEmployees-API/Repository/obj/Debug/net8.0/refint/Repository.dll
 /home/nelson/Desktop/C#/CompanyEmployees-API/Repository/obj/Debug/net8.0/Repository.pdb
 /home/nelson/Desktop/C#/CompanyEmployees-API/Repository/obj/Debug/net8.0/ref/Repository.dll
+/home/nelson/Desktop/C#/CompanyEmployees-API/Repository/bin/Debug/net8.0/Shared.dll
+/home/nelson/Desktop/C#/CompanyEmployees-API/Repository/bin/Debug/net8.0/Shared.pdb

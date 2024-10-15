@@ -34,3 +34,5 @@
 /home/nelson/Desktop/C#/CompanyEmployees-API/LoggerService/obj/Debug/net8.0/refint/LoggerService.dll
 /home/nelson/Desktop/C#/CompanyEmployees-API/LoggerService/obj/Debug/net8.0/LoggerService.pdb
 /home/nelson/Desktop/C#/CompanyEmployees-API/LoggerService/obj/Debug/net8.0/ref/LoggerService.dll
+/home/nelson/Desktop/C#/CompanyEmployees-API/LoggerService/bin/Debug/net8.0/Shared.dll
+/home/nelson/Desktop/C#/CompanyEmployees-API/LoggerService/bin/Debug/net8.0/Shared.pdb

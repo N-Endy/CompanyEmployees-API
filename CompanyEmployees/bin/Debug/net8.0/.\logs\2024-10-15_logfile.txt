@@ -1,0 +1,8 @@
+2024-10-15 21:19:28.3718 ERROR Something went wrong: No route matches the supplied values.
+2024-10-15 21:19:45.9321 ERROR Something went wrong: No route matches the supplied values.
+2024-10-15 21:21:21.0296 ERROR Something went wrong: No route matches the supplied values.
+2024-10-15 21:22:18.1535 ERROR Something went wrong: No route matches the supplied values.
+2024-10-15 21:22:32.9993 ERROR Something went wrong: No route matches the supplied values.
+2024-10-15 21:22:43.8084 ERROR Something went wrong: No route matches the supplied values.
+2024-10-15 21:22:52.5147 ERROR Something went wrong: No route matches the supplied values.
+2024-10-15 21:23:28.4781 ERROR Something went wrong: The company wit id: 00000000-0000-0000-0000-000000000000 doesn't exist in the database.
