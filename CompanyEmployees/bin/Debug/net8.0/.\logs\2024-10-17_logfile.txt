@@ -1,0 +1,6 @@
+2024-10-17 21:51:59.3484 ERROR Something went wrong: The LINQ expression 'DbSet<Employee>()
+    .Where(e => e.CompanyId.Equals(__companyId_0))
+    .Where(e => (long)e.Age >= __p_1 && (long)e.Age <= __p_2)
+    .Where(e => e.Name != null && e.Name.Contains(
+        value: __lowerCaseTerm_3, 
+        comparisonType: CurrentCultureIgnoreCase))' could not be translated. Additional information: Translation of method 'string.Contains' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.

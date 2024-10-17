@@ -23,7 +23,9 @@ public class EmployeeRepository : RepositoryBase<Employee>, IEmployeeRepository
 
     public async Task<PagedList<Employee>> GetEmployeesAsync(Guid companyId, EmployeeParameters employeeParameters, bool trackChanges)
     {
-        var employees = await FindByCondition(e => e.CompanyId.Equals(companyId) && e.Age >= employeeParameters.MinAge && e.Age <= employeeParameters.MaxAge, trackChanges)
+        var employees = await FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)
+            .FilterEmployees(employeeParameters.MinAge, employeeParameters.MaxAge)
+            .Search(employeeParameters.SearchTerm ?? string.Empty)
             .OrderBy(e => e.Name)
             .Skip((employeeParameters.PageNumber - 1) * employeeParameters.PageSize)
             .Take(employeeParameters.PageSize)
@@ -35,7 +37,6 @@ public class EmployeeRepository : RepositoryBase<Employee>, IEmployeeRepository
         return new PagedList<Employee>(employees, count,
         employeeParameters.PageNumber, employeeParameters.PageSize);
     }
-
     public void DeleteEmployee(Employee employee)
     {
         Delete(employee);
