@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TaQ/IFg9fZdGfdvDoCCV7NHWnVZgmBgPB4mFPibTJ7Bc/mIklecJd7j5Qaswy5fqiwKFPSC1CiFZYkzz3VDMow==",
+  "dgSpecHash": "tcFFpeRtfWma8s766ygDK7duGynKJUpKXFwBaAD4VWrorlRBA1RVtXei/jdu8T8beDrQKd/d7/UNuq5g4s6Z+w==",
   "success": true,
   "projectFilePath": "/home/nelson/Desktop/C#/CompanyEmployees-API/CompanyEmployees/CompanyEmployees.csproj",
   "expectedPackageFiles": [
@@ -76,6 +76,7 @@
     "/home/nelson/.nuget/packages/system.identitymodel.tokens.jwt/6.35.0/system.identitymodel.tokens.jwt.6.35.0.nupkg.sha512",
     "/home/nelson/.nuget/packages/system.io.filesystem.accesscontrol/5.0.0/system.io.filesystem.accesscontrol.5.0.0.nupkg.sha512",
     "/home/nelson/.nuget/packages/system.io.pipelines/6.0.3/system.io.pipelines.6.0.3.nupkg.sha512",
+    "/home/nelson/.nuget/packages/system.linq.dynamic.core/1.4.6/system.linq.dynamic.core.1.4.6.nupkg.sha512",
     "/home/nelson/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
     "/home/nelson/.nuget/packages/system.memory.data/1.0.2/system.memory.data.1.0.2.nupkg.sha512",
     "/home/nelson/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",

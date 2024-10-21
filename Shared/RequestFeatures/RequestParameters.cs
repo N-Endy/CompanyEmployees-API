@@ -10,4 +10,6 @@ public abstract class RequestParameters
         get => _pageSize;
         set => _pageSize = (value > maxPageSize) ? maxPageSize : value;
     }
+
+    public string? OrderBy  { get; set; }
 }

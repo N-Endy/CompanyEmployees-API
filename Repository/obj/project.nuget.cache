@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/l1Qes1yXNeTzCbYClKyXBdw/egmLbU0oqbofvHDBZtVR88Z4GYpX2HZXlfvl+GH17lhpZwMg7+a6xvzX4zKsQ==",
+  "dgSpecHash": "o3oxWhwApbOxYn4T7pUDZ1X9df78v3Ko8R7+Rlrndf5RLqq3Y3qX672im+g7n9gxTCK/kbOu0cLjWL+YBig3jg==",
   "success": true,
   "projectFilePath": "/home/nelson/Desktop/C#/CompanyEmployees-API/Repository/Repository.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,8 @@
     "/home/nelson/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "/home/nelson/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "/home/nelson/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
-    "/home/nelson/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    "/home/nelson/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/nelson/.nuget/packages/system.linq.dynamic.core/1.4.6/system.linq.dynamic.core.1.4.6.nupkg.sha512"
   ],
   "logs": []
 }

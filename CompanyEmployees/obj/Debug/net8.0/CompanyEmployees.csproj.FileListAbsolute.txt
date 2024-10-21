@@ -326,3 +326,4 @@
 /home/nelson/Desktop/C#/CompanyEmployees-API/CompanyEmployees/obj/Debug/net8.0/CompanyEmployees.pdb
 /home/nelson/Desktop/C#/CompanyEmployees-API/CompanyEmployees/obj/Debug/net8.0/CompanyEmployees.genruntimeconfig.cache
 /home/nelson/Desktop/C#/CompanyEmployees-API/CompanyEmployees/obj/Debug/net8.0/ref/CompanyEmployees.dll
+/home/nelson/Desktop/C#/CompanyEmployees-API/CompanyEmployees/bin/Debug/net8.0/System.Linq.Dynamic.Core.dll
