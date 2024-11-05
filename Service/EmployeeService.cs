@@ -57,11 +57,10 @@ public class EmployeeService : IEmployeeService
 
         var employeesWithMetaData = await _repository.Employee.GetEmployeesAsync(companyId, employeeParameters, trackChanges);
         var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employeesWithMetaData);
-        var shapedData = _dataShaper.ShapeData(employeesDto, employeeParameters.Fields);
+        var shapedData = _dataShaper.ShapeData(employeesDto, employeeParameters.Fields ?? "");
 
         return (employees: shapedData, metaData: employeesWithMetaData.MetaData);
     }
-
     public async Task DeleteEmployeeForCompanyAsync(Guid companyId, Guid id, bool trackChanges)
     {
         await CheckIfCompanyExists(companyId, trackChanges);

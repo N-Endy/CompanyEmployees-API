@@ -1,6 +1,7 @@
 using CompanyEmployees.Presentation.ActionFilters;
 using CompanyEmployees.Presentation.ModelBinders;
 using Entities.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Service.Contracts;
 using Shared.DataTransferObjects;
@@ -18,7 +19,7 @@ public class CompaniesController : ControllerBase
         _service = service;
     }
 
-    [HttpGet]
+    [HttpGet(Name = "GetCompanies")]
     public async Task<IActionResult> GetCompanies()
     {
         var companies = await _service.CompanyService.GetAllCompaniesAsync(trackChanges: false);
@@ -42,7 +43,7 @@ public class CompaniesController : ControllerBase
         return Ok(companies);
     }
 
-    [HttpPost]
+    [HttpPost(Name = "CreateCompany")]
     [ServiceFilter(typeof(ValidationFilterAttribute))]
     public async Task<IActionResult> CreateCompany([FromBody] CompanyForCreationDto company)
     {
@@ -77,5 +78,14 @@ public class CompaniesController : ControllerBase
         await _service.CompanyService.UpdateCompanyAsync(id, companyForUpdate, trackChanges: true);
 
         return NoContent();
+    }
+
+    [HttpOptions]
+    public IActionResult GetCompaniesOptions()
+    {
+        Response.Headers.Append("Allow", "GET, POST, DELETE, PUT, OPTIONS");
+
+        return Ok();
+
     }
 }

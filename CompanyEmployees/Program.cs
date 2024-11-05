@@ -31,6 +31,7 @@ builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
 builder.Services.AddScoped<ValidationFilterAttribute>();
 builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
+builder.Services.AddCustomMediaTypes();
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
@@ -58,17 +59,6 @@ app.UseExceptionHandler(opt => { });
 // Configure the HTTP request pipeline.
 if (app.Environment.IsProduction())
     app.UseHsts();
-
-// if (app.Environment.IsDevelopment())
-// {
-//     // app.UseSwagger();
-//     // app.UseSwaggerUI();
-//     app.UseDeveloperExceptionPage();
-// }
-// else
-// {
-//     app.UseHsts();
-// }
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
