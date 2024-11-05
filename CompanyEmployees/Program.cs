@@ -31,7 +31,6 @@ builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
 builder.Services.AddScoped<ValidationFilterAttribute>();
 builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
-builder.Services.AddCustomMediaTypes();
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
@@ -45,6 +44,10 @@ builder.Services.AddControllers(config => {
 }).AddXmlDataContractSerializerFormatters()
 .AddCustomCSVFormatter()
 .AddApplicationPart(typeof(CompanyEmployees.Presentation.AssemblyReference).Assembly);
+
+
+builder.Services.AddCustomMediaTypes();
+builder.Services.AddScoped<ValidateMediaTypeAttribute>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

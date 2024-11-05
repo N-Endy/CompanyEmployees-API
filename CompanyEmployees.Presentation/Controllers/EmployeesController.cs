@@ -22,6 +22,7 @@ public class EmployeesController : ControllerBase
 
     [HttpGet]
     [HttpHead]
+    [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
     public async Task<IActionResult> GetEmployeesForCompany(Guid companyId, [FromQuery] EmployeeParameters employeeParameters)
     {
         var (employees, metaData) = await _service.EmployeeService.GetEmployeesAsync(companyId, employeeParameters, trackChanges: false);
