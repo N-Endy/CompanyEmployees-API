@@ -1,3 +1,5 @@
+using Asp.Versioning;
+using CompanyEmployees.Presentation.Controllers;
 using Contracts;
 using LoggerService;
 using Microsoft.AspNetCore.Mvc;
@@ -69,7 +71,15 @@ public static class ServiceExtensions
         {
             option.ReportApiVersions = true;
             option.AssumeDefaultVersionWhenUnspecified = true;
-            option.DefaultApiVersion = new Asp.Versioning.ApiVersion(1, 0);
-        }).AddMvc();
+            option.DefaultApiVersion = new ApiVersion(1, 0);
+            option.ApiVersionReader = new HeaderApiVersionReader("api-version");
+        })
+        .AddMvc(opt =>
+        {
+            opt.Conventions.Controller<CompaniesController>()
+                .HasApiVersion(new ApiVersion(1, 0));
+            opt.Conventions.Controller<CompaniesV2Controller>()
+                .HasDeprecatedApiVersion(new ApiVersion(2, 0));
+        });
     }
 }

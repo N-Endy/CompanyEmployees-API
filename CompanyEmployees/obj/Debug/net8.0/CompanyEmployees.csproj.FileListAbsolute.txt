@@ -327,3 +327,6 @@
 /home/nelson/Desktop/C#/CompanyEmployees-API/CompanyEmployees/obj/Debug/net8.0/CompanyEmployees.genruntimeconfig.cache
 /home/nelson/Desktop/C#/CompanyEmployees-API/CompanyEmployees/obj/Debug/net8.0/ref/CompanyEmployees.dll
 /home/nelson/Desktop/C#/CompanyEmployees-API/CompanyEmployees/bin/Debug/net8.0/System.Linq.Dynamic.Core.dll
+/home/nelson/Desktop/C#/CompanyEmployees-API/CompanyEmployees/bin/Debug/net8.0/Asp.Versioning.Abstractions.dll
+/home/nelson/Desktop/C#/CompanyEmployees-API/CompanyEmployees/bin/Debug/net8.0/Asp.Versioning.Http.dll
+/home/nelson/Desktop/C#/CompanyEmployees-API/CompanyEmployees/bin/Debug/net8.0/Asp.Versioning.Mvc.dll
