@@ -62,4 +62,14 @@ public static class ServiceExtensions
             .Add("application/vnd.codemaze.apiroot+xml");
         });
     }
+
+    public static void ConfigureVersioning(this IServiceCollection services)
+    {
+        services.AddApiVersioning(option =>
+        {
+            option.ReportApiVersions = true;
+            option.AssumeDefaultVersionWhenUnspecified = true;
+            option.DefaultApiVersion = new Asp.Versioning.ApiVersion(1, 0);
+        }).AddMvc();
+    }
 }
